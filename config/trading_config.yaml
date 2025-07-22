@@ -1,0 +1,39 @@
+# === USER SETTINGS ===
+initial_capital: 80000           # Starting capital in INR
+monthly_investment: 30000        # Additional capital added every month
+
+# === PROFIT MODES ===
+modes:
+  base:
+    daily_target_percent: 1.5
+    max_trades_per_day: 5
+  moderate:
+    daily_target_percent: 4
+    max_trades_per_day: 4
+  beast:
+    daily_target_percent: 7
+    max_trades_per_day: 3
+
+# === TRADING SETTINGS ===
+risk_per_trade_percent: 2.0       # How much of capital to risk per trade
+trade_type: "options"             # Type of trade: cash, options, futures
+market: "NSE"                     # Indian stock market
+
+# === STOCKS TO MONITOR ===
+watchlist:
+  penny_stocks: [SUZLON.NS, SOUTHBANK.NS, IDEA.NS, JPPOWER.NS, IRCON.NS]
+  largecap_stocks: [RELIANCE.NS, TCS.NS, HDFCBANK.NS, INFY.NS, HINDUNILVR.NS]
+  midrange_stocks: [TATAMOTORS.NS, ADANIPOWER.NS, ZOMATO.NS, INDUSINDBK.NS]
+
+
+# === STOPLOSS SETTINGS ===
+default_stoploss_percent: 1.5     # Can be dynamically adjusted later
+
+# === DATA SOURCES ===
+data_sources:
+  technical: "manual_feed"         # Can be upgraded to API
+  fundamentals: "manual_feed"
+  news: "manual_feed"
+
+# === LOGGING ===
+log_file: "../logs/trade_log.txt"

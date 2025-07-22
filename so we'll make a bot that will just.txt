@@ -1,0 +1,11 @@
+so we'll make a bot that will just tell me when to buy and when to sell, he will record every position he will tell me to make, when I buy he then tell me to sell it or will tell me where to put stoploss, and for how much do I have to buy to hit the daily target,  and I will simulate all trades by my self, we will make minimum 1-2% of the capital per day, I will add 30k to the capital every month, and we'll compound the money like that, I have a capital of up to 50 to 80k. The bot will give me notification of every best opportunity, we will do trading in 3 different modes, base mode=1-2%, moderate mode=3-5%, beast mode=5-10%. It'll tell me the move according to the market condition that it will know by the information I will feed about technical analysis, fundamental analysis and news...we will make maximum of 5 trades per day....on option trading Indian stock market, on the best Penny Stocks and the 1000 rupees stocks. Make a list of these 10 stocks and let's start building.
+
+
+
+
+
+
+
+
+
+175760
